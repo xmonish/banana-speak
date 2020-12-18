@@ -11,7 +11,7 @@ function getTranslationURL(text){
 
 function errorHandler(error){
     console.log("Error occured", error)
-    alert("Something wrong in server. Try again after some time.")
+    alert("Maximum requests limit exceeded. Try again after an hour.")
 }
 
 
